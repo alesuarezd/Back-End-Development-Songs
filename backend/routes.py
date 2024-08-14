@@ -51,6 +51,7 @@ def parse_json(data):
 ######################################################################
 # INSERT CODE HERE
 ######################################################################
+<<<<<<< HEAD
 @app.route("/health")
 def healthz():
     return jsonify(dict(status="OK")), 200
@@ -123,3 +124,5 @@ def delete_song(id):
         return {"message": "song not found"}, 404
     else:
         return "", 204
+
+
